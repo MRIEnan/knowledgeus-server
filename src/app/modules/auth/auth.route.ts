@@ -25,13 +25,4 @@ router.post(
   validateRequest(AuthValidation.changePasswordZodSchema),
   AuthController.changePassword,
 );
-// router.get('/', AdminController.getAllAdmin);
-
-// router.delete('/:id', AdminController.deleteAdmin);
-
-// router.patch(
-//   '/:id',
-//   validateRequest(AdminValidation.updateAdminZodSchema),
-//   AdminController.updateAdmin,
-// );
 export const AuthRoutes = router;

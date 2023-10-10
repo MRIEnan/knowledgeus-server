@@ -9,7 +9,7 @@ import httpStatus from 'http-status';
 import config from './config';
 import cookieParser from 'cookie-parser';
 const corsHandler = cors({
-  origin: ['http://localhost:3000'],
+  origin: ['http://localhost:3000', 'https://restora-6f0c3.web.app'],
   credentials: true,
 });
 

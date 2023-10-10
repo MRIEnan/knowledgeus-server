@@ -6,12 +6,6 @@ import auth from '../../middlewares/auth';
 import { ENUM_USER_ROLE } from '../../../enums/users';
 const usersRouter = express.Router();
 
-// usersRouter.post(
-//   '/create-user',
-//   validateRequest(UserValidation.createUserZodSchema),
-//   UserController.createUser,
-// );
-
 usersRouter.post(
   '/create-user',
   validateRequest(UserValidation.createUserZodSchema),
